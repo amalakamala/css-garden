@@ -1,1 +1,244 @@
-/* Agrega aquí tus estilos*/
+* {
+    margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;	
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #8f5aa6;	
+	padding-bottom: 2%;
+	font-size: 1.2em;
+}
+
+section{
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-left: 90px;
+	margin-right: 90px;
+    padding: 0px;
+    padding-bottom: 40px;
+    background-color: #FFF;
+}
+
+section header{
+	background-repeat: no-repeat;
+	background-image: url(../img/logo.png);
+	width: 400px;	
+	height: 383px;
+    display: block;
+    margin: auto;
+}
+
+header h1, header h2{
+	opacity: 0;
+}
+
+abbr{
+	font-style: italic;	
+}
+
+.summary{
+	margin-left: 28%;
+	margin-right: 28%;
+	margin-bottom: 4%;
+	text-align: center;	
+	color: #555555;
+}
+
+.summary a:link, a:visited, 
+#zen-supporting .participation a:link, a:visited,
+#zen-requirements  a:link, a:visited{
+	color: #22bdad;
+}
+
+
+.summary a:hover, a:active, 
+#zen-supporting .participation a:hover, a:active,
+#zen-requirements  a:hover, a:active{
+	color: #ee2d58;
+}
+
+.summary::after{
+	content: url(../img/linea.png);	
+}
+
+.preamble{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;		
+}
+
+.preamble p{
+	column-count: 2;
+	column-gap: 30px;
+	font-size: 0.98em;
+	text-align: justify;
+	color: #555555;
+	font-stretch: ultra-expanded;					
+}
+
+#zen-supporting{
+    background-color: #FFF;
+	margin-left: 90px;
+	margin-right: 90px;    		
+}
+
+
+#zen-explanation{
+	width: 50%;
+	background-color: #98eae1;
+	padding: 5%;
+	color: #555555;
+	width: 40%;	
+	text-align: justify;
+	font-size: 0.9em;
+	margin: 0;
+	float: left;
+			
+}
+
+#zen-participation{	
+	width: 50%;	
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;	
+	padding-bottom: 5%;
+	color: #555555;
+	width: 40%;	
+	text-align: justify;
+	font-size: 0.9em;
+	float: left;
+}
+
+
+#zen-benefits::before{
+	content: url(../img/linea2.png);
+	padding-bottom: 10%;	
+	display: block;
+    margin: auto;	
+}
+
+#zen-benefits{	
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;	
+	color: #555555;	
+}
+
+#zen-requirements{
+	margin-top: 2%;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	background-color: MintCream;
+	color: #555555;	
+}
+
+#zen-requirements p{
+	column-count: 2;
+	column-gap: 35px;
+	font-size: 0.9em;
+	text-align: justify;		
+}
+
+
+footer{
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;	
+	text-align-last: center;
+
+}
+
+footer a:link, a:visited{
+	text-align-last: center;	
+	background-color: #FFF;
+	color: #ee2d58;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 2%;
+	padding-bottom: 2%;				
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+footer a:hover, a:active {
+	text-align-last: center;	
+	background-color: #98eae1;
+	font-weight: 300;
+	color: #FFF;	
+}
+
+/*
+La inforación que esta contiene es un anexo que asimila un footer 2.
+No afecta directamente a section o a otro elemento.
+*/
+
+aside{
+	margin-top: 3%;	
+	margin-left: 10%;
+	margin-right: 10%;	
+	color: #555555;		
+}
+
+aside h3{
+	font-size: 0.8em;
+	color: #555555;	
+	font-family: 'Quicksand', sans-serif;		
+}
+
+
+#design-selection{
+	width: 38%;	
+	float: left;
+	padding-bottom: 7%;
+	padding-left: 3%;
+    display: block;
+}
+
+#design-archives{
+	width: 35%;				
+	float: left;
+	padding-bottom: 5%;
+    display: block;	
+}
+
+#zen-resources{	
+	float: left;
+	padding-bottom: 7%;
+	padding-right: 3%;	
+    display: block;	
+}
+
+.wrapper ul{
+	font-size: 0.9em;	
+	color: #555555;		
+}
+
+.wrapper a:link, a:visited {
+	font-family: 'Quicksand', sans-serif;
+	color: #ee2d58;			
+}
+
+
+.wrapper a:hover, a:active  {
+	color: #8a74af;
+	font-family: 'Quicksand', sans-serif;		
+}
+
+.participation p a:last-child {
+	color: #22bdad;
+}
+
+
